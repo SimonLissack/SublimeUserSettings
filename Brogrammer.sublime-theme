@@ -1,0 +1,9 @@
+[  
+    // Smaller tabs for the Brogrammer theme
+    // Tab set
+    {
+        "class": "tabset_control",
+        "tab_min_width": 35,
+        "tab_height": 35
+    }
+]

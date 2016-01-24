@@ -1,0 +1,11 @@
+[
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+    { "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/EndOfLineSemicolon.sublime-macro"}},
+    { "keys": ["ctrl+shift+,"], "command": "run_macro_file", "args": {"file": "Packages/User/EndOfLineComma.sublime-macro"}},
+    { "keys": ["ctrl+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["ctrl+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["alt+left"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["alt+right"], "command": "move", "args": {"by": "word_ends", "forward": true} }
+]
