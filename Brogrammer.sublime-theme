@@ -1,9 +1,7 @@
-[  
-    // Smaller tabs for the Brogrammer theme
-    // Tab set
+[
     {
-        "class": "tabset_control",
-        "tab_min_width": 35,
-        "tab_height": 35
+        "class": "minimap_control",
+        "viewport_opacity": 0.2,
+        "viewport_color": [255, 255, 255, 100]
     }
 ]
